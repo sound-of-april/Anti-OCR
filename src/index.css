@@ -1,3 +1,16 @@
+/* import dinkie font */
+@font-face {
+  font-family: 'DinkieBitmap';
+  src:  url("./assets/dinkie-font/DinkieBitmap-9pxDemo.ttf") format("truetype"),
+        url("./assets/dinkie-font/DinkieBitmap-9pxDemo.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DinkieBitmap';
+  font-style: italic;
+  src:  url("./assets/dinkie-font/DinkieBitmap-9pxItalicDemo.ttf") format("truetype"),
+        url("./assets/dinkie-font/DinkieBitmap-9pxItalicDemo.woff") format("woff");
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
